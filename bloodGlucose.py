@@ -26,15 +26,13 @@ def estimate_hba1c(avg_glucose):
     return round(hba1c, 2)
 
 # title
-st.title("Blood Glucose Level Assessment and HbA1c Estimation by Fahad Ahmad")
+st.title("Blood Glucose Level Assessment and HbA1c Estimation by *:green[Fahad Ahmad]*")
 
-# User input for fasting glucose
+
 fasting_glucose = st.text_input("Enter your fasting glucose level (mg/dL)", "")
 
-# User input for random glucose
 random_glucose = st.text_input("Enter your random glucose level (mg/dL)", "")
 
-# User input for average glucose (for HbA1c)
 avg_glucose = st.text_input("Enter your average glucose level (mg/dL) for HbA1c estimation", "")
 
 
