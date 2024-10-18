@@ -47,7 +47,7 @@ if st.button("Assess and Estimate"):
         hba1c_result = estimate_hba1c(avg_value)
         
       
-        st.subheader("Results:")
+        st.subheader("### :green[Results:]")
         st.write(f"Glucose Assessment: {glucose_result}")
         st.write(f"Estimated HbA1c: {hba1c_result}")
     else:
