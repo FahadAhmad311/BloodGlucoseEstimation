@@ -43,7 +43,7 @@ def estimate_hba1c(avg_glucose):
     return round(hba1c, 2)
 
 # Streamlit app UI
-st.title("Blood Glucose Level Assessment and HbA1c Estimation")
+st.title("Blood Glucose Level Assessment and HbA1c Estimation by Fahad Ahmad")
 
 # User input for fasting glucose
 fasting_glucose = st.text_input("Enter your fasting glucose level (mg/dL)", "")
